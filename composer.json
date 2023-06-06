@@ -1,0 +1,19 @@
+{
+    "name": "dcen/livebook",
+    "require": {
+        "illuminate/collections": "^10.10"
+    },
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }
+    },
+    "require-dev": {
+
+    },
+    "config": {
+        "allow-plugins": {
+        }
+    }
+}
